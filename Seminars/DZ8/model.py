@@ -9,8 +9,8 @@ def csv_data_open():      # 1 - показать все
 
 
 def add_info(list):  # 2 - добавление информации
-    with open('d:\Geek\Введение в Python\HomeWork\Seminars\DZ8\phone.csv', 'a', encoding="utf8", newline='') as f:
-        writer = csv.writer(f, delimiter=';')
+    with open('d:\Geek\Введение в Python\HomeWork\Seminars\DZ8\phone.csv', 'a', encoding="utf8", newline='') as file:
+        writer = csv.writer(file, delimiter=';')
         writer.writerow(list)
 
 
